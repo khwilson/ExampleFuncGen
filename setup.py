@@ -34,7 +34,7 @@ setup(
     author_email="khwilson@gmail.com",
     license="Proprietary",
     packages=find_packages(),
-    package_data={'examplefuncgen': ['VERSION']},
+    package_data={'examplefuncgen': ['VERSION', 'features_and_imputers.json']},
     install_requires=parse_requirements('requirements.in'),
     tests_require=parse_requirements('requirements.testing.in'),
     description="An example of how to generate functions to expose in a public API",

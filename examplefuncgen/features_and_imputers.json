@@ -1,0 +1,7 @@
+{
+  "foo": {
+    "compute_function_gen": "examplefuncgen.features.arithmetic:add_to_gen",
+    "compute_function_gen_args": [2],
+    "impute_function": "examplefuncgen.imputers.constants:impute_zero"
+  }
+}

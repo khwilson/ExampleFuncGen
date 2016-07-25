@@ -1,3 +1,4 @@
 include requirements.*
 include README.md
 include examplefuncgen/VERSION
+include examplefuncgen/features_and_imputers.json
